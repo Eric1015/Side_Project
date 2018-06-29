@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Let us know how we can improve freeCodeCamp</p>
+    <form id="survey-form">
+        <label id="name-label" for="name">Name:</label>
+        <input id="name" type="text" placeholder="Enter your name" required>
+        <br>
+        <label id="email-label" for="email">Email:</label>
+        <input id="email" type="email" placeholder="Enter your email" required>
+        <br>
+        <label id="number-label" for="number">Age:</label>
+        <input id="number" type="number" placeholder="Age" min="0" max="120">
+        <br>
+        <select id="dropdown">
+            <option value="student">Student</option>
+            <option value="employee">Employee</option>
+            <option value="employer">Employer</option>
+            <option value="manager">Manager</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+        <input name="gender" type="radio" value="male">Male</input>
+        <br>
+        <input name="gender" type="radio" value="female">Female</input>
+        <br>
+        <input name="gender" type="radio" value="trans">Trans</input>
+        <br>
+        <input name="gender" type="radio" value="no-answer">Prefered not to answer</input>
+        <br>
+        <input type="checkbox" name="occupation" value="software">Software Developer</input>
+        <br>
+        <input type="checkbox" name="occupation" value="web">Web Developer</input>
+        <br>
+        <input type="checkbox" name="occupation" value="qa">QA Engineer</input>
+        <br>
+        <textarea value="comment"></textarea>
+        <br>
+        <input type="submit" id="submit">
+    </form>
+</body>
+
+</html>
