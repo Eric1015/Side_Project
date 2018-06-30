@@ -1,0 +1,158 @@
+body{
+    background: cadetblue;
+}
+#title{
+    text-align: center;
+    font-size: 300%;
+}
+#description{
+    text-align: center;
+    font-size: 120%;
+}
+#warning{
+    text-align: center;
+}
+form{
+    width: 80%;
+    margin: 0px auto;
+    background: white;
+    text-align: center;
+}
+#container{
+    display: grid;
+}
+label{
+    margin: 5px 3%;
+    padding: 8px;
+    text-align: left;
+}
+span{
+    color: red;
+}
+.input{
+    margin: 5px 3%;
+    padding: 12px;
+    text-align: left;
+}
+#container input{
+    margin: 5px 3%;
+    padding: 12px;
+}
+#name-label{
+    grid-row: 1/2;
+}
+#name{
+    grid-row: 2/3;
+}
+#email-label{
+    grid-row: 3/4;
+}
+#email{
+    grid-row: 4/5;
+}
+#number-label{
+    grid-row: 5/6;
+}
+#number{
+    grid-row: 6/7;
+}
+#dropdown-label{
+    grid-row: 7/8;
+    margin: 5px 3%;
+}
+#dropdown{
+    grid-row: 8/9;
+    margin: 5px 3%;
+}
+#radio-label{
+    grid-row: 9/10;
+}
+#gender{
+    grid-row: 10/11;
+}
+#occupation-label{
+    grid-row: 11/12;
+}
+#occupation{
+    grid-row: 12/13;
+}
+#comment-label{
+    grid-row: 13/14;
+    margin: 5px 3%;
+}
+#comment{
+    grid-row: 14/15;
+    margin: 5px 3%;
+    height: 100px;
+}
+#submit{
+    margin: 10px auto;
+}
+@media screen and (min-width: 450px){
+    #description{
+        font-size: 150%;
+    }
+    form{
+        width: 80%;
+        text-align: center;
+    }
+    label{
+        grid-column: 1;
+        text-align: right;
+        margin-right: 3%;
+        padding: 12px;
+    }
+    .input{
+        grid-column: 2;
+        text-align: left;
+    }
+    #container input{
+        grid-column: 2;
+        text-align: left;
+    }
+    textarea{
+        grid-column: 2;
+    }
+    #name-label{
+        grid-row: 1/2;
+    }
+    #name{
+        grid-row: 1/2;
+    }
+    #email-label{
+        grid-row: 2/3;
+    }
+    #email{
+        grid-row: 2/3;
+    }
+    #number-label{
+        grid-row: 3/4;
+    }
+    #number{
+        grid-row: 3/4;
+    }
+    #dropdown-label{
+        grid-row: 4/5;
+    }
+    #dropdown{
+        grid-row: 4/5;
+    }
+    #radio-label{
+        grid-row: 5/6;
+    }
+    #gender{
+        grid-row: 5/6;
+    }
+    #occupation-label{
+        grid-row: 6/7;
+    }
+    #occupation{
+        grid-row: 6/7;
+    }
+    #comment-label{
+        grid-row: 7/8;
+    }
+    #comment{
+        grid-row: 7/8;
+    }
+}
