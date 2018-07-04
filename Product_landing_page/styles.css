@@ -1,0 +1,56 @@
+:root{
+    --padding-top: 70px;
+}
+
+header{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background: lightblue;
+    z-index: 1;
+}
+section{
+    padding-top: var(--padding-top, 70px);
+}
+#form{
+    padding-top: var(--padding-top, 70px);
+}
+.sticky{
+    position: fixed;
+    top: 0%;
+}
+#nav-bar{
+    display: flex;
+    width: 60%;
+}
+#nav-bar a{
+    width: 33.3%;
+    text-align: center;
+}
+#email{
+    margin: 10px auto;
+}
+#prices{
+    display: flex;
+    flex-flow: wrap;
+}
+.choice{
+    text-align: center;
+    width: 96%;
+    padding: 10px;
+    margin: 10px 2%;
+    border: 2px solid black;
+}
+
+@media screen and (min-width: 450px){
+    .choice{
+        width: 400px;
+        margin: 10px auto;
+    }
+}
+
+@media screen and (min-width: 800px){
+    .choice{
+        width: 28.66%;
+    }
+}
