@@ -6,7 +6,7 @@ header{
     width: 100%;
     padding: 0px;
     margin: 0px;
-    background: lightblue;
+    background: white;
     z-index: 1;
 }
 section{
@@ -14,6 +14,7 @@ section{
 }
 #form{
     padding-top: var(--padding-top, 70px);
+    text-align: center;
 }
 .sticky{
     position: fixed;
@@ -30,16 +31,33 @@ section{
 #email{
     margin: 10px auto;
 }
+.feature{
+    margin: 0px auto;
+    width: 80%;
+}
 #prices{
     display: flex;
     flex-flow: wrap;
 }
 .choice{
     text-align: center;
-    width: 96%;
+    width: 92%;
     padding: 10px;
-    margin: 10px 2%;
+    margin: 10px 4%;
     border: 2px solid black;
+}
+
+.choice p{
+    width: 70%;
+    height: 150px;
+    margin: 0px auto;
+    margin-top: 15px;
+}
+
+.course{
+    background: cyan;
+    margin: 0px;
+
 }
 
 @media screen and (min-width: 450px){
